@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #dde6ed;
+    padding: 20px;
+}
+
+.dashboard{
+    display: flex;
+    gap: 20px;
+}
+
+.dashboard-content{
+    background-color: white;
+    flex: 1;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
