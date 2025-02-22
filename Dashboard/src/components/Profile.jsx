@@ -40,8 +40,8 @@ const Profile = () => {
         </div>
 
         <div className="user-courses">
-          {courses.map((courses) => (
-            <div className="course">
+          {courses.map((courses, index) => (
+            <div className="course" key={index}>
               <div className="course-detail">
                 <div className="course-cover">{courses.icon}</div>
                 <div className="course-name">

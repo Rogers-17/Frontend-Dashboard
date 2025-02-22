@@ -41,8 +41,8 @@ const TeacherList = () => {
         </select>
       </div>
       <div className="list-container">
-        { teachers.map((teacher) => (
-            <div className="list">
+        { teachers.map((teacher, index) => (
+            <div className="list" key={index}>
                 <div className="teacher-detail">
                     <img src={teacher.image} alt={teacher.name} className='img'/>
                     <h2>{teacher.name}</h2>
